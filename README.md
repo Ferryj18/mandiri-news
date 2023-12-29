@@ -1,0 +1,2 @@
+# mandiri news
+ initial commit
