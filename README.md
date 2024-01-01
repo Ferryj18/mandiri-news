@@ -1,2 +1,5 @@
 # mandiri news
- initial commit
+Tech stacks:
+VIPER
+UIKit
+Libraries (Cocoapods)
