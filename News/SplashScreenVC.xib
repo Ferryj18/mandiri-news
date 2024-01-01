@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashScreen" customModule="News" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UeI-s3-oF7">
+                    <rect key="frame" x="0.0" y="59" width="393" height="718.33333333333337"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="uNK-OO-0ho">
+                            <rect key="frame" x="96.666666666666686" y="259.33333333333331" width="200" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="WJE-V2-djf"/>
+                                <constraint firstAttribute="height" constant="200" id="ylZ-vL-07F"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="uNK-OO-0ho" firstAttribute="centerY" secondItem="UeI-s3-oF7" secondAttribute="centerY" id="71G-oW-oor"/>
+                        <constraint firstItem="uNK-OO-0ho" firstAttribute="centerX" secondItem="UeI-s3-oF7" secondAttribute="centerX" id="aFb-TS-cHN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dC9-wV-gTa" userLabel="Author">
+                    <rect key="frame" x="0.0" y="777.33333333333337" width="393" height="40.666666666666629"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="918-iP-eT0">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="40.666666666666664"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Mandiri News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2L-AP-Ppw">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="20.333333333333332"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created By Ferry Jati Waskito" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue3-we-Ii9">
+                                    <rect key="frame" x="0.0" y="20.333333333333258" width="393" height="20.333333333333371"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="918-iP-eT0" firstAttribute="top" secondItem="dC9-wV-gTa" secondAttribute="top" id="ZtN-H2-Qop"/>
+                        <constraint firstAttribute="bottom" secondItem="918-iP-eT0" secondAttribute="bottom" id="l4e-Xh-uog"/>
+                        <constraint firstItem="918-iP-eT0" firstAttribute="leading" secondItem="dC9-wV-gTa" secondAttribute="leading" id="lpK-UG-dv4"/>
+                        <constraint firstAttribute="trailing" secondItem="918-iP-eT0" secondAttribute="trailing" id="u8J-bQ-az2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dC9-wV-gTa" firstAttribute="top" secondItem="UeI-s3-oF7" secondAttribute="bottom" id="6Tm-G8-CyY"/>
+                <constraint firstItem="UeI-s3-oF7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9fM-P5-EZ5"/>
+                <constraint firstItem="dC9-wV-gTa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="PY6-sb-Zv7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dC9-wV-gTa" secondAttribute="trailing" id="R3i-Mb-wnr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dC9-wV-gTa" secondAttribute="bottom" id="ZGY-1N-1bi"/>
+                <constraint firstItem="UeI-s3-oF7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="hne-5f-KhA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UeI-s3-oF7" secondAttribute="trailing" id="oWq-KP-Veb"/>
+            </constraints>
+            <point key="canvasLocation" x="-115.26717557251908" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="800" height="279"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
