@@ -1,6 +1,10 @@
 # mandiri news
  initial commit
 # Demo
-![Simulator Screen Recording - iPhone 15 Pro - 2024-04-19 at 18 40 33](https://github.com/Ferryj18/mandiri-news/assets/124117535/b7f85872-6409-479d-aa7e-26fe1e976665)
+
+
+
+https://github.com/Ferryj18/mandiri-news/assets/124117535/a84a7f3d-5add-4f0a-bc93-d55d6d3846b9
+
 
 
